@@ -19,4 +19,4 @@ Route::middleware('auth:sanctum')->group(function () {
 Route::get('/zonas',[ZonaController::class,'obtenerZonas']); //PLURAL
 Route::get('/zona/{idzona}',[ZonaController::class,'obtenerZona']); //SINGULAR
 Route::get('/zonaspais/{idpais}',[ZonaController::class,'obtenerZonaPais']);
-Route::post('/nuevozona',[ZonaController::class,'crearZona']); 
+Route::post('/nuevazona',[ZonaController::class,'crearZona']); 
